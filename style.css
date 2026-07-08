@@ -2,8 +2,8 @@
 :root {
   --bg: #f4f6fb;
   --card-bg: #ffffff;
-  --text: #233241;
-  --accent: #009cda;
+  --text: #372746;
+  --accent: #d4aaf0;
 }
  
 /* ธีมมืด: สลับด้วยการเติม class ที่ <body> ผ่าน JS */
