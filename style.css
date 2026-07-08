@@ -98,22 +98,24 @@ body {
 
 .card__input {
   margin-top: 1.5rem;
-  text-align: center;
+  text-align: center;      /* จัดทุกอย่างให้อยู่กึ่งกลาง */
 }
 
 .card__input label {
   display: block;
   margin-bottom: 0.5rem;
-  font-size: 0.9rem;   /* ปรับตัวหนังสือให้เล็กลง */
+  font-size: 0.8rem;       /* ลดขนาดตัวอักษร */
   font-weight: 500;
 }
 
 .card__input input {
   width: 80%;
+  margin: 0 auto;          /* จัดช่องกรอกให้อยู่กึ่งกลาง */
+  display: block;
   padding: 0.6rem;
-  font-size: 0.9rem;   /* ปรับตัวหนังสือในช่องให้เล็กลง */
+  font-size: 0.9rem;       /* ขนาดตัวอักษรในช่อง */
+  text-align: center;      /* ข้อความที่พิมพ์อยู่กึ่งกลาง */
   font-family: inherit;
-  text-align: center;  /* ข้อความที่พิมพ์อยู่กึ่งกลาง */
   border: 1px solid #ccc;
   border-radius: 8px;
 }
