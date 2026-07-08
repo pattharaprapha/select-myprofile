@@ -1,17 +1,17 @@
 /* ===== ตัวแปรสี (CSS Custom Properties) ===== */
 :root {
-  --bg: #f4f6fb;
-  --card-bg: #ffffff;
-  --text: #372746;
-  --accent: #d4aaf0;
+  --bg: #e9fcfd;
+  --card-bg: #faecec;
+  --text: #000433;
+  --accent: #6d2d97;
 }
  
 /* ธีมมืด: สลับด้วยการเติม class ที่ <body> ผ่าน JS */
 body.dark {
-  --bg: #0f172a;
-  --card-bg: #1e293b;
-  --text: #e2e8f0;
-  --accent: #60a5fa;
+  --bg: #0b3353;
+  --card-bg: #001433;
+  --text: #ffffff;
+  --accent: #e0d31d;
 }
  
 /* ===== Layout ===== */
@@ -94,4 +94,26 @@ body {
   margin-top: 1.5rem;
   font-size: 0.85rem;
   opacity: 0.7;
+}
+
+.card__input {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.card__input label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;  
+  font-weight: 500;
+}
+
+.card__input input {
+  width: 80%;
+  padding: 0.6rem;
+  font-size: 0.9rem;  
+  font-family: inherit;
+  text-align: center;  
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }

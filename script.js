@@ -17,3 +17,13 @@ toggleButton.addEventListener('click', () => {
 // ===== Footer: ปีอัตโนมัติด้วย template literal =====
 const currentYear = new Date().getFullYear();
 footer.textContent = `© ${currentYear} — Deploy ด้วย GitHub Pages 🚀`;
+
+// ===== เปลี่ยนชื่อแบบ Real-time =====
+const fullNameInput = document.querySelector('#fullname');
+const cardName = document.querySelector('.card__name');
+
+fullNameInput.addEventListener('input', () => {
+  const name = fullNameInput.value.trim();
+
+  cardName.textContent = name || 'ชื่อ นามสกุล';
+});
