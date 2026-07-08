@@ -98,20 +98,22 @@ body {
 
 .card__input {
   margin-top: 1.5rem;
-  text-align: left;
+  text-align: center;
 }
 
 .card__input label {
   display: block;
   margin-bottom: 0.5rem;
-  font-weight: 600;
+  font-size: 0.9rem;   /* ปรับตัวหนังสือให้เล็กลง */
+  font-weight: 500;
 }
 
 .card__input input {
-  width: 100%;
-  padding: 0.7rem;
+  width: 80%;
+  padding: 0.6rem;
+  font-size: 0.9rem;   /* ปรับตัวหนังสือในช่องให้เล็กลง */
+  font-family: inherit;
+  text-align: center;  /* ข้อความที่พิมพ์อยู่กึ่งกลาง */
   border: 1px solid #ccc;
   border-radius: 8px;
-  font-family: inherit;
-  font-size: 1rem;
 }
